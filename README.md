@@ -7,6 +7,7 @@ This project demonstrates a simple Flask web application using Docker for contai
 ## Author
 
 **Lucas Veríssimo Campos dos Santos**
+
 **email: lucas.verissimo@match.mt**
 
 ## Project Structure
