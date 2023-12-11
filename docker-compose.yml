@@ -6,9 +6,19 @@ services:
       - "5000:5000"
     depends_on:
       - db
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: '6g'
   db:
     image: postgres:latest
     environment:
       POSTGRES_DB: estudiodigital
       POSTGRES_USER: adminestudiodigital
       POSTGRES_PASSWORD: passwordestudiodigital
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: '6g'
